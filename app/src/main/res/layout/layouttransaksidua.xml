@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTA TRANSAKSI"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tipeMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipe Member : "
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:id="@+id/namaPelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Pelanggan :"
+            />
+        <TextView
+            android:id="@+id/jenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin :"
+            />
+        <TextView
+            android:id="@+id/alamatPelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pelanggan :"
+            />
+        <TextView
+            android:id="@+id/namaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang :"
+            />
+        <TextView
+            android:id="@+id/jumlahBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Barang :"
+            />
+        <TextView
+            android:id="@+id/hargaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga :"
+            />
+        <TextView
+            android:id="@+id/totalHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga :"
+            />
+        <TextView
+            android:id="@+id/discHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disc. Harga :"
+            />
+        <TextView
+            android:id="@+id/discMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disc. Member :"
+            />
+        <TextView
+            android:id="@+id/jumlahBayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Bayar :"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terimakasih Sudah berbelanja di tempa kami"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRINT NOTA"/>
+</LinearLayout>
