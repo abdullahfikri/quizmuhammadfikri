@@ -106,12 +106,13 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("diskonMember", totalDiskonMember);
         intent.putExtra("diskonHarga", totalDiskonHarga);
         intent.putExtra("jumlahBayar", jumlahBayar);
-try {
-    startActivity(intent);
 
-}catch (Exception e){
+        try {
+            startActivity(intent);
 
-}
+        }catch (Exception e){
+
+        }
 
     }
 }

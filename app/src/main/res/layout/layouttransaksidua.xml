@@ -28,60 +28,76 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nama Pelanggan :"
+            android:paddingBottom="10dp"
             />
         <TextView
             android:id="@+id/jenisKelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jenis Kelamin :"
+            android:paddingBottom="10dp"
             />
         <TextView
             android:id="@+id/alamatPelanggan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Alamat Pelanggan :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/namaBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nama Barang :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/jumlahBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jumlah Barang :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/hargaBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Harga :"
+            android:paddingBottom="10dp"
             />
         <TextView
             android:id="@+id/totalHarga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Total Harga :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/discHarga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Disc. Harga :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/discMember"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Disc. Member :"
+            android:paddingBottom="10dp"
+
             />
         <TextView
             android:id="@+id/jumlahBayar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jumlah Bayar :"
+
             />
     </LinearLayout>
 
